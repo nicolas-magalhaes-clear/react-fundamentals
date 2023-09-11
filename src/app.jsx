@@ -13,25 +13,31 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
+
 export default function App() {
     return (
         <div id="app">
 
             <div className="cards" >
 
+                <Card titulo='#10 - Comunicação indireta'>
+                    <IndiretaPai></IndiretaPai>
+                </Card>
+
                 <Card titulo='#09 - Comunicação direta'>
                     <DiretaPai></DiretaPai>
                 </Card>
 
                 <Card titulo='#08 - Renderização condicional' color="#982395">
-                    <UsuarioInfo usuario={{nome: 'Fernando'}}/>
-                    <UsuarioInfo usuario={{nome: 'Julia'}}/>
-                    <UsuarioInfo usuario={{email: 'Fernando'}}/>
-                    <UsuarioInfo usuario={{}}/>
-                    <UsuarioInfo usuario={{}}/>
-                    <UsuarioInfo usuario={{}}/>
-                    <UsuarioInfo usuario={{nome: 'Lucas'}}/>
-                    <UsuarioInfo usuario={{nome: 'Natalia'}}/>
+                    <UsuarioInfo usuario={{ nome: 'Fernando' }} />
+                    <UsuarioInfo usuario={{ nome: 'Julia' }} />
+                    <UsuarioInfo usuario={{ email: 'Fernando' }} />
+                    <UsuarioInfo usuario={{}} />
+                    <UsuarioInfo usuario={{}} />
+                    <UsuarioInfo usuario={{}} />
+                    <UsuarioInfo usuario={{ nome: 'Lucas' }} />
+                    <UsuarioInfo usuario={{ nome: 'Natalia' }} />
                 </Card>
 
                 <Card titulo='#07 #DESAFIO01 - Desafio Produtos repetição' color='yellow' border='yellow'>
