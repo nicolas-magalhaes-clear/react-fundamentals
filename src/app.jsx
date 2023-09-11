@@ -19,7 +19,10 @@ export default function App() {
             <div className="cards" >
 
                 <Card titulo='#08 - Renderização condicional' color="#982395">
-                    <ParOuImpar numero={2}></ParOuImpar>
+                    <UsuarioInfo usuario={{nome: 'Fernando'}}/>
+                    <UsuarioInfo usuario={{nome: 'Julia'}}/>
+                    <UsuarioInfo usuario={{email: 'Fernando'}}/>
+                    <UsuarioInfo usuario={{}}/>
                 </Card>
 
                 <Card titulo='#07 #DESAFIO01 - Desafio Produtos repetição' color='yellow' border='yellow'>
