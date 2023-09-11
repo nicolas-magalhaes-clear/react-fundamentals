@@ -23,6 +23,10 @@ export default function App() {
                     <UsuarioInfo usuario={{nome: 'Julia'}}/>
                     <UsuarioInfo usuario={{email: 'Fernando'}}/>
                     <UsuarioInfo usuario={{}}/>
+                    <UsuarioInfo usuario={{}}/>
+                    <UsuarioInfo usuario={{}}/>
+                    <UsuarioInfo usuario={{nome: 'Lucas'}}/>
+                    <UsuarioInfo usuario={{nome: 'Natalia'}}/>
                 </Card>
 
                 <Card titulo='#07 #DESAFIO01 - Desafio Produtos repetição' color='yellow' border='yellow'>
