@@ -11,7 +11,8 @@ import React from "react";
 
 
 export default props =>{
-
+    const gerarIdade = () => parseInt(Math.random() * (max-min))+ min
+    const gerarNerd = () => Math.random > 0.5;
     return(
 
         <div>
