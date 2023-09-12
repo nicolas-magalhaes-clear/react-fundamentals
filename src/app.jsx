@@ -15,13 +15,16 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/input";
+import Contador from "./components/contador/contador";
 
 export default function App() {
     return (
         <div id="app">
 
             <div className="cards" >
-
+                <Card titulo='12 - Contador' color='yellow'>
+                    <Contador numeroInicial={0} passo={0}></Contador>
+                </Card>
                 <Card titulo='#11 - Componentes controlados' color='green'>
                     <Input></Input>
                 </Card>
