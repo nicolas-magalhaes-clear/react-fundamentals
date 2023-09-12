@@ -1,20 +1,21 @@
 /*
 Na comunicação direta um componente passa dados para o outro diretamente na declaração dele
 */
-import React from "react";
+import React, { useState, useTransition } from "react";
 
 import IndiretaFilho from "./IndiretaFilho";
 
 export default props => {
 
-    let nome = '?'
-    let idade = 0;
-    let nerd = false
+    const [a,b] = [1,2]
+    let [nome, setNome] = useState('?');
+    let [idade, setIdade] = useState(0);
+    let [nerd,setNerd] = useState(false);
     //Função de callback que utilizaremos para pegar dados do filho
-    function fornecerInformacoes(nomeParam,idadeParam,nerdParam){
-        nome = nomeParam;
-        idade = idadeParam;
-        nerd = nerdParam;
+    function fornecerInformacoes(nome,idade,nerd){
+        setNome(nome);
+        setIdade(idade);
+        setNerd(nerd)
     }
     return(
         <div>
