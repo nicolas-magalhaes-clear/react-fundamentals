@@ -14,12 +14,17 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/input";
 
 export default function App() {
     return (
         <div id="app">
 
             <div className="cards" >
+
+                <Card titulo='#11 - Componentes controlados' color='green'>
+                    <Input></Input>
+                </Card>
 
                 <Card titulo='#10 - Comunicação indireta'>
                     <IndiretaPai></IndiretaPai>
